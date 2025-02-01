@@ -25,6 +25,7 @@ import { UserModelInit } from './user'
 import { WalletModelInit } from './wallet'
 import { Sequelize, Transaction } from 'sequelize'
 
+// todo:db
 /* jslint node: true */
 const sequelize = new Sequelize('database', 'username', 'password', {
   dialect: 'sqlite',

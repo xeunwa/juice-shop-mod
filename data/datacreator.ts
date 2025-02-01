@@ -99,6 +99,7 @@ async function createChallenges () {
   )
 }
 
+// todo:users
 async function createUsers () {
   const users = await loadStaticUserData()
 

@@ -265,3 +265,11 @@
   securityQuestion:
     id: 10
     answer: "Used Emporium"
+-
+  email: miku
+  password: 'm1ku'
+  key: miku
+  role: 'customer'
+  securityQuestion:
+    id: 7
+    answer: 'Yukine '

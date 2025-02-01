@@ -34,6 +34,7 @@ InferCreationAttributes<User>
   declare isActive: CreationOptional<boolean>
 }
 
+// todo:users
 const UserModelInit = (sequelize: Sequelize) => { // vuln-code-snippet start weakPasswordChallenge
   User.init(
     { // vuln-code-snippet hide-start
